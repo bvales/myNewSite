@@ -283,5 +283,7 @@ main {
     main .lg-heading {
       maring-top: 1rem;
       font-size: 5rem; }
+    main .boxes div {
+      font-size: 1.5rem; }
     main .projects {
       grid-template-columns: 1fr; } }
