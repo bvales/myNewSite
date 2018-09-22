@@ -131,6 +131,28 @@ main {
   }
 }
 
+.backBtn a {
+  color: $secondary-color;
+  font-size: 1.5rem;
+}
+
+.mainProject {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: 1fr;
+
+  img {
+    width: 100%;
+    border: 3px #fff solid;
+
+    &:hover {
+      opacity: 0.5;
+      border-color: $secondary-color;
+      @include easeOut;
+    }
+  }
+}
+
 // Contact Page
 .boxes {
   display: flex;
